@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node2" appversion="6.1.6" apprev="17950">
+  <panorama id="node1" hideabout="1">
+    <input levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" height="1440" levelingpitch="0" levelbias="0.400" levelingroll="0" leveltilesize="510" overlap="1">
+      <level width="1440" height="1440" preload="0" predecode="0"/>
+      <level width="720" height="720" preload="0" predecode="0"/>
+      <level width="360" height="360" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" pan="0" projection="4" tilt="0"/>
+      <flyin fov="46.26" pan="-33.48" projection="4" tilt="5.17"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata description="" latitude="" customnodeid="" author="" datetime="13/01/2022 20:56" source="" tags="Pano2VR6" title="DCIM\100GOPRO\GS__0099.JPG" heading="0" longitude="" info="" nodeid="node1" comment="" copyright=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label borderalpha="1" border="1" width="180" height="20" backgroundalpha="1" textcolor="0x000000" background="1" bordercolor="0x000000" enabled="0" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="0" mode="-1"/>
+      <hotspot description="" skinid="ht_node" url="{node2}" id="Point01" pan="-5.37" title="" target="-27.4/1.5/70.0" tilt="-15.56"/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomout="3" enabled="1" blendtime="1" zoomin="2" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomfov="20" softedge="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="20" rubberband="0" speedwheel="1" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" hideabout="1" invertcontrol="1"/>
+  </panorama>
+  <panorama id="node2" hideabout="1">
+    <input levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" height="1440" levelingpitch="0" levelbias="0.400" levelingroll="0" leveltilesize="510" overlap="1">
+      <level width="1440" height="1440" preload="0" predecode="0"/>
+      <level width="720" height="720" preload="0" predecode="0"/>
+      <level width="360" height="360" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" pan="0" projection="4" tilt="0"/>
+      <flyin fov="46.26" pan="177.91" projection="4" tilt="-1.34"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata description="" latitude="" customnodeid="" author="" datetime="13/01/2022 20:57" source="" tags="Pano2VR6" title="DCIM\100GOPRO\GS__0101.JPG" heading="0" longitude="" info="" nodeid="node2" comment="" copyright=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label borderalpha="1" border="1" width="180" height="20" backgroundalpha="1" textcolor="0x000000" background="1" bordercolor="0x000000" enabled="0" backgroundcolor="0xffffff" wordwrap="1" textalpha="1" borderradius="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="0" mode="-1"/>
+      <hotspot description="" skinid="ht_node" url="{node1}" id="Point01" pan="-197.92" title="" target="-49.8/-13.3/70.0" tilt="-17.72"/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" zoomout="3" enabled="1" blendtime="1" zoomin="2" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomfov="20" softedge="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control sensitivity="20" rubberband="0" speedwheel="1" contextfullscreen="1" lockedmouse="0" lockedkeyboard="0" invertwheel="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" hideabout="1" invertcontrol="1"/>
+  </panorama>
+  <masternode>
+    <userdata description="" latitude="" customnodeid="" author="" datetime="" source="" tags="" title="" heading="0" longitude="" info="" nodeid="master" comment="" copyright=""/>
+  </masternode>
+</tour>
